@@ -1,0 +1,19 @@
+<p>tabla-usuarios works!</p>
+<table>
+  <thead>
+    <tr>
+      <th>Nombre de usuario</th>
+      <th>Fecha de nacimiento</th>
+      <th>Edad</th>
+      <th>Dirección</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ngFor="item in res">
+      <td>{{item.name}}</td>
+      <td>{{item.fecha_nacimiento}}</td>
+      <td>{{item.edad}}</td>
+      <td>{{item.domicilio}}</td>
+    </tr>
+  </tbody>
+</table>
